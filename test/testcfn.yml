@@ -1,11 +1,11 @@
 AWSTemplateFormatVersion: "2010-09-09"
 Description: Antonette Caldwell @2020-2021 / This template deploys a basic VPC (virtual private cloud in AWS)
 Resources:
-  TestVPCinYAML:
+  TestVPC:
     Type: 'AWS::EC2::VPC'
     Properties:
       CidrBlock: 10.0.0.0/16
       EnableDnsHostnames: true
       Tags:
         - Key: name
-          Value: test-vpc-yaml
+          Value: test-vpc
